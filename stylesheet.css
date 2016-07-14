@@ -1,0 +1,382 @@
+body{
+	background-color: black;
+	font-family: "courier new";
+	font-size: 10pt;	
+	text-align: center;
+}
+
+#header {
+	background-color: green;
+	width: 100%;
+	max-width: 98%;
+	height: 80px;
+	float: top;
+	position: fixed;
+	margin-left: max-width;
+	margin-right: max-width;
+	border: 5px solid #034500;
+	border-radius: 5px;
+	text-align: left;
+        z-index: 1;
+        opacity: 50%;
+} 
+
+
+
+.menubutton {
+	background-color: #00e6a4;
+	width: 100%;
+	max-width: 10%;
+	min-width: 90px;
+	height: 60px;
+	float: bottom;
+	position: fixed;
+	display: inline-block;
+	margin-top: 30px;
+	border: 5px solid #034500;
+	border-radius: 5px;
+}
+
+.logbutton {
+        background-color: #00e6a4;
+	width: 100%;
+	max-width: 10%;
+	min-width: 90px;
+	height: 60px;
+	position: fixed;
+	display: inline-block;
+	margin-top: 30px;
+	border: 5px solid #034500;
+	border-radius: 5px;
+}
+
+
+#bodyparagraph {
+	padding-top: 150px;
+	text-align: left;
+}
+
+.buttontext {
+	font-size: 20px;
+	text-align: center;
+}
+
+.buttontextcart {
+	font-size: 16px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+#contactform {
+	background-color: yellow;
+	width: 25%;
+	max-width: 100%;
+	min-width: 250px;
+	height: 50%;
+	display: inline-block;
+	border: 5px solid green;
+	text-align: left;
+	margin-top: 120px;
+}
+
+#contactform2 {
+	background-color: yellow;
+	width: 80%;
+	max-width: 100%;
+	min-width: 200px;
+	height: 70%;
+	display: inline-block;
+	margin-left: 10%;
+	margin-top: 15%;
+	overflow: hidden;
+}
+
+#loginbutton {
+    margin-left: 5%;
+    margin-top: 0%;
+}
+
+#logoutbutton {
+    margin-left: 5%;
+    margin-top: 70px;
+    
+}
+
+#button1 {
+	margin-left: 20%;
+}
+
+
+#button2 {
+	margin-left: 40%;
+}
+
+
+#button3 {
+	margin-left: 60%;
+}
+
+#button4 {
+        margin-left: 80%;
+}
+
+#button5 {
+        margin-left: 92%;
+        background-color: #00e6a4;
+	width: 10%;
+	max-width: 5%;
+	min-width: 10px;
+	height: 40px;
+	float: bottom;
+	position: fixed;
+	display: inline-block;
+	margin-top: 50px;
+	border: 5px solid #034500;
+	border-radius: 5px;
+}
+
+#shoppagecart {
+        background-color: red;
+        width: 20%;
+        min-width: 300px;
+        max-width: 30%;
+	height: 97%;
+        margin-left: 79%; 
+        float: right;
+        border: 5px solid brown;
+        position: fixed;
+        
+        
+}
+
+#shopcartbottem {
+    background-color: yellow;
+        width: 20%;
+        min-width: 100%;
+        max-width: 30%;
+	height: 20%;
+        bottom: 0;
+        margin-left: -0.3%;
+        float: right;
+        border: 5px solid brown;
+        position: fixed;
+        z-index: 1;
+}
+
+#shopcarttotal {
+    background-color: blue;
+        width: 20%;
+        min-width: 100%;
+        max-width: 30%;
+	height: 7%;
+        margin-left: -0.3%;
+        float: right;
+        border: 5px solid brown;
+        position: fixed;
+        z-index: 2;
+}
+
+#shopcarttotaltext {
+        font-size: 20px;
+        text-align: left;
+        float: top;
+        position: relative;
+        z-index: 2;
+        color: yellow;
+}
+
+#shopcartempty {
+    background-color: purple;
+        width: 6%;
+        min-width: 50px;
+        max-width: 30%;
+        min-height: 30px;
+	height: 7%;
+        margin-left: 1%;
+        margin-bottom: 1%;
+        bottom: 0;
+        float: right;
+        border: 5px solid brown;
+        position: fixed;
+        z-index: 2;
+       
+}
+
+#emptytext {
+        text-align: center;
+        font-size: 20px;
+        color: yellow;
+    
+    
+}
+
+
+#shopcartpay {
+    background-color: cyan;
+        width: 6%;
+        min-width: 50px;
+        max-width: 30%;
+        min-height: 30px;
+	height: 7%;
+        margin-left: 10%;
+        margin-bottom: 1%;
+        bottom: 0;
+        float: right;
+        border: 5px solid brown;
+        position: fixed;
+        z-index: 2;
+}
+
+#shopcartcontent {
+        background-color: orange;
+        width: 15%;
+        min-width: 200px;
+        max-width: 30%;
+	height: 75%;
+        margin-left: -0.3%;
+        float: right;
+        border: 5px solid brown;
+        position: fixed;
+        z-index: 1;
+        padding-top: 6%;
+}
+
+#webshopwrapper {
+        background-color: orange;
+        width: 70%;
+        min-width: 400px;
+        max-width: 100%;
+	height: 85%;
+        margin-left: 1%;
+        margin-top: 10%;
+        border: 5px solid brown;
+        position: absolute;
+        z-index: 0;
+        
+        
+}
+
+.webshopcontent {
+     background-color: cyan;
+        width: 30%;
+        min-width: 50px;
+        max-width: 50%;
+        min-height: 60px;
+	height: 40%;
+        float: left;
+        margin-top: 4%;
+        margin-left: 2%;
+        border: 5px solid brown;
+        position: relative;
+        z-index: 1;
+        display: inline-block;
+        text-align: center;
+}
+
+
+
+.webshopcontentfoto {
+    background-color: yellow;
+    width: 50%;
+    min-width: 50px;
+    max-width: 50%;
+    min-height: 60px;
+    height: 70%;
+    float: left;
+    margin-top: 4%;
+    margin-left: 2%;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+}
+
+.resize {
+        width: 100%;
+        min-width: 50px;
+        max-width: 100%;
+        min-height: 60px;
+	height: 100%;
+        float: left;
+        position: relative;
+        z-index: 2;
+        display: inline-block;
+}
+
+.webshopcontentdata {
+    background-color: yellow;
+        width: 40%;
+        min-width: 50px;
+        max-width: 50%;
+        min-height: 60px;
+	height: 70%;
+        float: left;
+        margin-top: 4%;
+        margin-left: 2%;
+        position: relative;
+        z-index: 2;
+        display: inline-block;
+        text-align: center;
+}
+
+.cartitemcontent {
+    background-color: yellow;
+        width: 90%;
+        min-width: 50px;
+        max-width: 100%;
+        min-height: 60px;
+	height: 20%;
+        float: left;
+        margin-top: 4%;
+        margin-left: 2%;
+        position: relative;
+        z-index: 1;
+        display: inline-block;
+}
+
+.cartitemimg {
+    background-color: red;
+        width: 40%;
+        min-width: 50px;
+        max-width: 100%;
+        min-height: 60px;
+	height: 80%;
+        float: left;
+        margin-top: 4%;
+        margin-left: 2%;
+        position: relative;
+        z-index: 2;
+        display: inline-block;
+}
+
+.cartitemtext {
+    background-color: cyan;
+        width: 50%;
+        min-width: 50px;
+        max-width: 100%;
+        min-height: 60px;
+	height: 80%;
+        float: left;
+        margin-top: 4%;
+        margin-left: 2%;
+        position: relative;
+        z-index: 2;
+        display: inline-block;
+}
+
+
+
+
+#body {
+	background-color: #8afa48;
+	width: max-width;
+	height: 1000px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+
